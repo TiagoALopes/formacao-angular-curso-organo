@@ -5,8 +5,8 @@ export const livros: Livro[] = [
         titulo: 'O Senhor dos Anéis',
         autoria: 'J.R.R. Tolkien',
         genero: {
-            id: 'Fantasia Épica',
-            value: 'Fantasia Épica',
+            id: 'fantasia_epica',
+            value: 'Fantasia_Épica',
             livros: []
         },
         favorito: false,

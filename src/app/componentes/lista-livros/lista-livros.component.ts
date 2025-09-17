@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { GeneroLiterario, Livro } from '../livro/livro';
 import { livros } from '../../mock-livro';
+import { GeneroLiterarioComponent } from '../genero-literario/genero-literario.component';
 
 @Component({
   selector: 'app-lista-livros',
-  imports: [],
+  imports: [GeneroLiterarioComponent],
   templateUrl: './lista-livros.component.html',
   styleUrl: './lista-livros.component.css'
 })
@@ -25,9 +26,9 @@ export class ListaLivrosComponent implements OnInit {
 
     this.generos = [
       {
-        id: 'fantasia epica',
+        id: 'fantasia_epica',
         value: 'Fantasia Épica',
-        livros: this.livrosPorGenero.get("fantasia epica") ?? []
+        livros: this.livrosPorGenero.get("fantasia_epica") ?? []
       },
       {
           id: 'romance',
