@@ -36,8 +36,16 @@
     font-size: 20px;
   }
 
-  .romance {
+  .fan {
     background-color: #E8FFFF;
+  }
+  
+  .generos .fantasia_epica {
+    border-bottom: 4px solid #ec2f1e;
+  }
+
+  .fantasia_epica {
+    background-color: #ffe8e8;
   }
   
   .generos .romance {

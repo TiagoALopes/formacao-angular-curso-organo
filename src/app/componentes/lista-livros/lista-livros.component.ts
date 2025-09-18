@@ -27,7 +27,7 @@ export class ListaLivrosComponent implements OnInit {
     this.generos = [
       {
         id: 'fantasia_epica',
-        value: 'Fantasia Épica',
+        value: 'Fantasia_Épica',
         livros: this.livrosPorGenero.get("fantasia_epica") ?? []
       },
       {
